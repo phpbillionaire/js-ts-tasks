@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.018" tests="57" failures="56">
+  <testsuite name="Root Suite" timestamp="2024-11-05T16:34:13" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="backToFront.js" timestamp="2024-11-05T16:34:13" tests="10" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.009" failures="9">
+    <testcase name="backToFront.js should return &quot;&quot;ohelloo&quot;&quot;" time="0.003" classname="should return &quot;&quot;ohelloo&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;ohello&apos;
+
+should loosely deep-equal
+
+&apos;ohelloo&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'ohello'
+
+should loosely deep-equal
+
+'ohelloo'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -ohello
+      +ohelloo
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;abcabcabc&quot;&quot;" time="0.000" classname="should return &quot;&quot;abcabcabc&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;abcabc&apos;
+
+should loosely deep-equal
+
+&apos;abcabcabc&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'abcabc'
+
+should loosely deep-equal
+
+'abcabcabc'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -abcabc
+      +abcabcabc
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;world&quot;&quot;" time="0.000" classname="should return &quot;&quot;world&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;worldworld&apos;
+
+should loosely deep-equal
+
+&apos;world&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'worldworld'
+
+should loosely deep-equal
+
+'world'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -worldworld
+      +world
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;llbillll&quot;&quot;" time="0.000" classname="should return &quot;&quot;llbillll&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;llbill&apos;
+
+should loosely deep-equal
+
+&apos;llbillll&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'llbill'
+
+should loosely deep-equal
+
+'llbillll'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -llbill
+      +llbillll
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;!one!!&quot;&quot;" time="0.001" classname="should return &quot;&quot;!one!!&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;!one!&apos;
+
+should loosely deep-equal
+
+&apos;!one!!&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'!one!'
+
+should loosely deep-equal
+
+'!one!!'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -!one!
+      +!one!!
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;smallString&quot;&quot;" time="0.000" classname="should return &quot;&quot;smallString&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;smallStringsmallString&apos;
+
+should loosely deep-equal
+
+&apos;smallString&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'smallStringsmallString'
+
+should loosely deep-equal
+
+'smallString'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -smallStringsmallString
+      +smallString
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;320933&quot;&quot;" time="0.000" classname="should return &quot;&quot;320933&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;32093&apos;
+
+should loosely deep-equal
+
+&apos;320933&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'32093'
+
+should loosely deep-equal
+
+'320933'
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -32093
+      +320933
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;   &quot;&quot;" time="0.000" classname="should return &quot;&quot;   &quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&apos;  &apos;
+
+should loosely deep-equal
+
+&apos;   &apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+'  '
+
+should loosely deep-equal
+
+'   '
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -  
+      +   
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;&apos;&apos;&apos;&quot;&quot;" time="0.000" classname="should return &quot;&quot;&apos;&apos;&apos;&quot;&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+&quot;&apos;&apos;&quot;
+
+should loosely deep-equal
+
+&quot;&apos;&apos;&apos;&quot;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+"''"
+
+should loosely deep-equal
+
+"'''"
+    at Context.<anonymous> (test\index.js:24:18)
+    at process.processImmediate (node:internal/timers:483:21)
+
+      + expected - actual
+
+      -''
+      +'''
+      ]]></failure>
+    </testcase>
+    <testcase name="backToFront.js should return &quot;&quot;&quot;&quot;" time="0.000" classname="should return &quot;&quot;&quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="compareSalary.js" timestamp="2024-11-05T16:34:13" tests="6" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="6">
+    <testcase name="compareSalary.js should return &quot;400&quot;" time="0.000" classname="should return &quot;400&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary.js should return &quot;0&quot;" time="0.000" classname="should return &quot;0&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary.js should return &quot;2&quot;" time="0.001" classname="should return &quot;2&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary.js should return &quot;5349&quot;" time="0.000" classname="should return &quot;5349&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary.js should return &quot;609.008888&quot;" time="0.000" classname="should return &quot;609.008888&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary.js should return &quot;53492003509&quot;" time="0.000" classname="should return &quot;53492003509&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src\compareSalary.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="compareTwoNumbers.js" timestamp="2024-11-05T16:34:13" tests="5" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="5">
+    <testcase name="compareTwoNumbers.js should return &quot;&quot;&gt;&quot;&quot;" time="0.000" classname="should return &quot;&quot;&gt;&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src\compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers.js should return &quot;&quot;=&quot;&quot;" time="0.000" classname="should return &quot;&quot;=&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src\compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers.js should return &quot;&quot;=&quot;&quot;" time="0.000" classname="should return &quot;&quot;=&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src\compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers.js should return &quot;&quot;&lt;&quot;&quot;" time="0.000" classname="should return &quot;&quot;&lt;&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src\compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers.js should return &quot;&quot;=&quot;&quot;" time="0.000" classname="should return &quot;&quot;=&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src\compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="digitsSum.js" timestamp="2024-11-05T16:34:13" tests="9" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.002" failures="9">
+    <testcase name="digitsSum.js should return &quot;1&quot;" time="0.000" classname="should return &quot;1&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;7&quot;" time="0.000" classname="should return &quot;7&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;2&quot;" time="0.000" classname="should return &quot;2&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;6&quot;" time="0.000" classname="should return &quot;6&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;10&quot;" time="0.000" classname="should return &quot;10&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;33&quot;" time="0.000" classname="should return &quot;33&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;22&quot;" time="0.000" classname="should return &quot;22&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;22&quot;" time="0.000" classname="should return &quot;22&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum.js should return &quot;0&quot;" time="0.000" classname="should return &quot;0&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src\digitsSum.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="divider.js" timestamp="2024-11-05T16:34:13" tests="6" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="6">
+    <testcase name="divider.js should return &quot;&quot;2 0&quot;&quot;" time="0.000" classname="should return &quot;&quot;2 0&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="divider.js should return &quot;&quot;2 2&quot;&quot;" time="0.000" classname="should return &quot;&quot;2 2&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="divider.js should return &quot;&quot;4 1&quot;&quot;" time="0.000" classname="should return &quot;&quot;4 1&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="divider.js should return &quot;&quot;8 0&quot;&quot;" time="0.000" classname="should return &quot;&quot;8 0&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="divider.js should return &quot;&quot;1 1&quot;&quot;" time="0.000" classname="should return &quot;&quot;1 1&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="divider.js should return &quot;&quot;2 1&quot;&quot;" time="0.000" classname="should return &quot;&quot;2 1&quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src\divider.js:9:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="evalExpr.js" timestamp="2024-11-05T16:34:13" tests="6" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="6">
+    <testcase name="evalExpr.js should return &quot;4&quot;" time="0.000" classname="should return &quot;4&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr.js should return &quot;340&quot;" time="0.000" classname="should return &quot;340&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr.js should return &quot;-20&quot;" time="0.000" classname="should return &quot;-20&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr.js should return &quot;-2036&quot;" time="0.000" classname="should return &quot;-2036&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr.js should return &quot;4252&quot;" time="0.000" classname="should return &quot;4252&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr.js should return &quot;-20372&quot;" time="0.001" classname="should return &quot;-20372&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src\evalExpr.js:7:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumInRange.js" timestamp="2024-11-05T16:34:13" tests="5" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.000" failures="5">
+    <testcase name="sumInRange.js should return &quot;45&quot;" time="0.000" classname="should return &quot;45&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange.js should return &quot;21&quot;" time="0.000" classname="should return &quot;21&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange.js should return &quot;-125250&quot;" time="0.000" classname="should return &quot;-125250&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange.js should return &quot;-1&quot;" time="0.000" classname="should return &quot;-1&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange.js should return &quot;55&quot;" time="0.000" classname="should return &quot;55&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumTwoNumbers.js" timestamp="2024-11-05T16:34:13" tests="6" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="6">
+    <testcase name="sumTwoNumbers.js should return &quot;16&quot;" time="0.000" classname="should return &quot;16&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers.js should return &quot;458&quot;" time="0.000" classname="should return &quot;458&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers.js should return &quot;-15&quot;" time="0.000" classname="should return &quot;-15&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers.js should return &quot;0&quot;" time="0.000" classname="should return &quot;0&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers.js should return &quot;-0.9&quot;" time="0.000" classname="should return &quot;-0.9&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers.js should return &quot;215042314&quot;" time="0.000" classname="should return &quot;215042314&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="volumeCone.js" timestamp="2024-11-05T16:34:13" tests="4" file="C:\Users\death\Desktop\js-ts-tasks\test\index.js" time="0.001" failures="4">
+    <testcase name="volumeCone.js should return &quot;20.94&quot;" time="0.000" classname="should return &quot;20.94&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone.js should return &quot;314.16&quot;" time="0.000" classname="should return &quot;314.16&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone.js should return &quot;7.33&quot;" time="0.000" classname="should return &quot;7.33&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone.js should return &quot;28807927.11&quot;" time="0.000" classname="should return &quot;28807927.11&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:23:27)
+    at process.processImmediate (node:internal/timers:483:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
