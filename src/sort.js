@@ -9,5 +9,7 @@
  * @returns {function}
  */
 module.exports.sort = function sort(TestUtils) {
-  jfkdslgjfdgjklfd;'fjsgklfjgf'
+  return function (...args) {
+    return args.sort(TestUtils.sortComparator);
+  };
 };
