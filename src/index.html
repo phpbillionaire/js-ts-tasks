@@ -1,16 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML CSS Task</title>
 
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./iphone.js"></script>
-  </head>
-  <body>
-    <iphone-frame>
-      <!-- Your HTML Code here -->
-    </iphone-frame>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML CSS Task</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <script src="./iphone.js"></script>
+</head>
+
+<body>
+  <iphone-frame>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__return">
+            <a href="#" class="header__return-link">
+              <img class="header__return-link-img" src="/src/img/arrow.svg" alt="return">
+            </a>
+          </div>
+          <div class="header__username">
+            <h4 class="header__username-text">
+              user_name
+            </h4>
+          </div>
+          <div class="header__options">
+            <button class="header__options-btn">
+              <img class="header__options-img" src="/src/img/options.svg" alt="options">
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="profile">
+      <div class="container">
+        <div class="profile__inner">
+          <div class="profile__avatar">
+            <img class="profile__avatar-img" src="/src/img/avatar.svg" alt="avatar">
+          </div>
+          <div class="profile__statistics">
+            <div class="profile__statistics-posts">
+              <span class="profile__statistics-count">129</span>
+              Posts
+            </div>
+            <div class="profile__statistics-followers">
+              <span class="profile__statistics-count">3680</span>
+              Followers
+            </div>
+            <div class="profile__statistics-following">
+              <span class="profile__statistics-count">230</span>
+              Following
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bio">
+      <div class="container">
+        <div class="bio__inner"></div>
+        <h3 class="bio__fullname">
+          Name
+        </h3>
+        <p class="bio__category">
+          Local business
+        </p>
+        <a href="#" class="bio__website">www.website.com</a>
+      </div>
+    </section>
+    <section class="actions">
+      <div class="container">
+        <div class="actions__inner">
+          <button class="actions__button actions__button-primary">
+            Follow
+          </button>
+          <button class="actions__button">
+            Message
+          </button>
+          <button class="actions__button">
+            Email
+          </button>
+          <button class="actions__button actions__button-short">
+            <img class="actions__button-img" src="/src/img/arrow-down.svg" alt="list">
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="stories">
+      <div class="container">
+        <div class="stories__inner">
+          <ul class="stories__list">
+            <li class="stories__list-item">
+              <img class="stories__list-item-img" src="/src/img/highlights/highlight-1.svg" alt="story">
+              <p class="stories__list-item-title">Highlight</p>
+            </li>
+            <li class="stories__list-item">
+              <img class="stories__list-item-img" src="/src/img/highlights/highlight-2.svg" alt="story">
+              <p class="stories__list-item-title">Highlight</p>
+            </li>
+            <li class="stories__list-item">
+              <img class="stories__list-item-img" src="/src/img/highlights/highlight-3.svg" alt="story">
+              <p class="stories__list-item-title">Highlight</p>
+            </li>
+            <li class="stories__list-item">
+              <img class="stories__list-item-img" src="/src/img/highlights/highlight-4.svg" alt="story">
+              <p class="stories__list-item-title">Highlight</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="content__header">
+        <div class="content__photos">
+          <img class="content__photos-img" src="/src/img/photos.svg" alt="photos menu">
+        </div>
+        <div class="content__tags">
+          <img class="content__photos-img" src="/src/img/tags.svg" alt="tags menu">
+        </div>
+      </div>
+      <div class="content__images">
+        <img class="content__images-img" src="/src/img/photos/Img-01.png" alt="image">
+        <img class="content__images-img" src="/src/img/photos/Img-02.png" alt="image">
+        <img class="content__images-img" src="/src/img/photos/Img-03.png" alt="image">
+        <img class="content__images-img" src="/src/img/photos/Img-04.png" alt="image">
+        <img class="content__images-img" src="/src/img/photos/Img-05.png" alt="image">
+        <img class="content__images-img" src="/src/img/photos/Img-06.png" alt="image">
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__item">
+            <img src="/src/img/footer/Home.svg" alt="home" class="footer__item-img">
+          </div>
+          <div class="footer__item">
+            <img src="/src/img/footer/Search.svg" alt="home" class="footer__item-img">
+          </div>
+          <div class="footer__item">
+            <img src="/src/img/footer/Add.svg" alt="home" class="footer__item-img">
+          </div>
+          <div class="footer__item">
+            <img src="/src/img/footer/Like.svg" alt="home" class="footer__item-img">
+          </div>
+          <div class="footer__item">
+            <img src="/src/img/footer/avatar.svg" alt="home" class="footer__item-img">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </iphone-frame>
+</body>
+
 </html>
